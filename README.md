@@ -55,6 +55,47 @@ Success! Created quill-clone-tut at [workstation dir](~/Work/Learn/NextJS/NextJS
 - 08:22
   > SaaS dev build workflow: Landing Page & Navigation ➡️ Auth ️➡ Functionality (➡ Payment & Launch)
 
+## Adding Radix UI based shadcn/ui to the project
+
+```bash
+victor@victorpc:quill-clone-tut$ npx shadcn-ui@latest init
+Need to install the following packages:
+  shadcn-ui@0.4.0
+Ok to proceed? (y) y
+✔ Would you like to use TypeScript (recommended)? … no / yes
+✔ Which style would you like to use? › Default
+✔ Which color would you like to use as base color? › Zinc
+✔ Where is your global CSS file? … src/app/globals.css
+✔ Would you like to use CSS variables for colors? … no / yes
+✔ Where is your tailwind.config.js located? … tailwind.config.ts
+✔ Configure the import alias for components: … @/components
+✔ Configure the import alias for utils: … @/lib/utils
+✔ Are you using React Server Components? … no / yes
+✔ Write configuration to components.json. Proceed? … yes
+
+✔ Writing components.json...
+✔ Initializing project...
+✔ Installing dependencies...
+
+Success! Project initialization completed.
+```
+
+- Now we can choose any of the [shadcn/ui components](https://ui.shadcn.com/docs/components/accordion) and install them via `npx` (CLI method)
+- So, button for our home page, for example:
+
+```bash
+victor@victorpc:quill-clone-tut$ npx shadcn-ui@latest add shadcn-ui@latest add button
+✔ Done.
+
+victor@victorpc:quill-clone-tut$ tree src/components
+src/components
+├── MaxWidthWrapper.tsx
+└── ui
+    └── button.tsx
+
+1 directory, 2 files
+```
+
 ---
 
 ## Original Next.js README
