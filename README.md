@@ -1,3 +1,64 @@
+# Quill Clone Tutorial Step by Step
+
+- Based on [You Tube Josh tried coding 2023-09-28 Build a Complete SaaS Platform with Next.js 13, React, Prisma, tRPC, Tailwind | Full Course 2023](https://www.youtube.com/watch?v=ucX2zXAZ1I0)
+
+## Project creation from scratch
+
+```bash
+victor@victorpc:dev$ npx create-next-app@latest
+✔ What is your project named? … quill-clone-tut
+✔ Would you like to use TypeScript? … No / Yes
+✔ Would you like to use ESLint? … No / Yes
+✔ Would you like to use Tailwind CSS? … No / Yes
+✔ Would you like to use `src/` directory? … No / Yes
+✔ Would you like to use App Router? (recommended) … No / Yes
+✔ Would you like to customize the default import alias? … No / Yes
+Creating a new Next.js app in /home/victor/Work/Learn/NextJS/NextJS-2023/JoshTriedCoding/dev/quill-clone-tut.
+
+Using npm.
+
+Initializing project with template: app-tw
+
+
+Installing dependencies:
+- react
+- react-dom
+- next
+
+Installing devDependencies:
+- typescript
+- @types/react
+- @types/node
+- @types/react-dom
+- autoprefixer
+- postcss
+- tailwindcss
+- eslint
+- eslint-config-next
+
+
+added 331 packages, and audited 332 packages in 25s
+
+117 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+Initialized a git repository.
+
+Success! Created quill-clone-tut at [workstation dir](~/Work/Learn/NextJS/NextJS-2023/JoshTriedCoding/dev/quill-clone-tut)
+```
+
+## Create Landing Page
+
+### Phase Planning
+
+- 08:22
+  > SaaS dev build workflow: Landing Page & Navigation ➡️ Auth ️➡ Functionality (➡ Payment & Launch)
+
+---
+
+## Original Next.js README
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
